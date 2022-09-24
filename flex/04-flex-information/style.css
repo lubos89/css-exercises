@@ -39,7 +39,6 @@ img {
 .image-box {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   max-width: 200px;
   align-items: center;
   text-align: center;
