@@ -41,6 +41,10 @@ body {
   padding: 16px;
 }
 
+.footer {
+  background-color: #eeeeee;
+}
+
 .left-links,
 .right-links {
   display: flex;
@@ -63,5 +67,5 @@ ul {
 a {
   outline: none;
   text-decoration: none;
-  color: gray;
+  color: rgb(102, 102, 102);
 }
