@@ -69,11 +69,11 @@ button.cancel {
 .modal {
   display: flex;
   padding: 15px;
+  gap: 15px;
 }
 
 .icon {
   flex-shrink: 0;
-  margin-right: 15px;
 }
 
 .header {
