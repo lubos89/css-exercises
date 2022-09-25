@@ -44,6 +44,9 @@ body {
 .left-links,
 .right-links {
   display: flex;
+  margin: 0px;
+  padding: 0px;
+  gap: 16px;
 }
 
 .content {
@@ -55,4 +58,10 @@ body {
 
 ul {
   list-style: none;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  color: gray;
 }
