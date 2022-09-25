@@ -60,6 +60,10 @@ body {
   align-items: center;
 }
 
+button {
+  padding: 7px;
+}
+
 ul {
   list-style: none;
 }
