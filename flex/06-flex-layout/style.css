@@ -27,16 +27,23 @@ input {
 }
 
 /* MY SOLUTION */
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .header,
 .footer {
   display: flex;
   justify-content: space-between;
+  padding: 16px;
 }
 
 .left-links,
 .right-links {
   display: flex;
-  justify-content: space-around;
 }
 
 .content {
