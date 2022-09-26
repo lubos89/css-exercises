@@ -31,7 +31,6 @@ body {
 body {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
 }
 
 .header {
@@ -50,8 +49,24 @@ body {
 
 .content {
   display: flex;
+  flex: auto;
 }
 
-.cards-container {
-  display: flex;
+.sidebar {
+  width: 300px;
+  flex-shrink: 0;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+a {
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
 }
