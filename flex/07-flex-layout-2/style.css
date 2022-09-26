@@ -27,11 +27,31 @@ body {
   border-radius: 4px;
 }
 
+/*MY SOLUTION*/
 body {
   display: flex;
   flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  font-size: 32px;
+  font-weight: 900;
+  padding-left: 16px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .content {
+  display: flex;
+}
+
+.cards-container {
   display: flex;
 }
