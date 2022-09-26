@@ -70,3 +70,16 @@ a {
   color: white;
   text-decoration: none;
 }
+
+.cards-container {
+  display: flex;
+  padding: 32px;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.card {
+  width: 300px;
+  height: 250px;
+  padding: 16px;
+}
